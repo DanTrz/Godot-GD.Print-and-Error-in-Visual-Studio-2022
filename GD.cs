@@ -13,7 +13,7 @@ using Godot;
 /// To enable VisualStudio 2022 Debugger, rename this class to "GD".
 /// To disable VisualStudio 2022 Debugger, rename this class to "GD_LogDisable" (Or any other name except "GD").
 /// </summary>
-public static class GD_LogDisable
+public static class GD
 {
     private static bool IsVisualStudio2022()
     {
