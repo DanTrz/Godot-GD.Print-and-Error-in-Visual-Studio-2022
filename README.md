@@ -3,7 +3,9 @@ How to achieve a "hacky" way to get print messages and be able to debug using Vi
 
 For those that need to work with Visual Studio 2022 and Godot, there is not an easy way to get the debug and GD.Print messages working for C#.
 
-To make this solution work, just copy the GD.cs file and put it anywhere in your project. [https://github.com/DanTrz/Godot-GD.Print-and-Error-in-Visual-Studio-2022/blob/main/GD.cs]
+To make this solution work, just copy the GD.cs file and put it anywhere in your project. 
+
+[GD.cs file]](https://github.com/DanTrz/Godot-GD.Print-and-Error-in-Visual-Studio-2022/blob/main/GD.cs )
 
 It will get calls from Godot GD.Print and other methods and will forward it to the Debuger in Visual Studio so you can see themm in the console. In short, this will pipe GD.Print functions to the Visual Studio 2022 output window.
 
